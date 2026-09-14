@@ -156,7 +156,7 @@
         },
         {
             "type": "weather",
-            "location": "CHS",
+            "location": "[ZIP/Airport Code]", // Add Zip or Airport code
             "timeout": 2000,
             "outputFormat": "%c%t+-+%C+(%l)&u", //"%c%t+-+%C+(%l)",
             "format": "lua:local args=...;return (args.result:gsub('%s%s+', ' '))",
